@@ -1,0 +1,50 @@
+input:checked + label{
+    text-decoration: line-through;
+    color:red;
+}
+li:hover:nth-child(5n){
+    background: red;
+}
+li:nth-child(3n) {
+    color: yellow;
+}
+li::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2ed2c6;
+}
+ul {
+    list-style-image:url("unnamed.png");
+    margin-left: 50px;
+}
+.two:first-letter{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #57e507;
+}
+p.new:before{
+    content: "♥";
+    font-size: 1.5rem;
+}
+a:hover:before{
+    content: "♥";
+    color: #47f160;
+
+}
+.grad{
+    background:repeating-linear-gradient(45deg, #7fffd4 10%,#f0ffff 30%);
+    margin-top: 20px;
+}
+a[href*='htmlweb']{
+    color: blueviolet;
+}
+div >a[href*='htmlweb']{
+    background-color: red;
+}
+a:nth-child(2n):hover{
+    border: solid 5px red;
+    border-radius: 10% 25%;
+}
+.grad >a:visited{
+    background-color: yellow;
+}
